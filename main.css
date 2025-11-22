@@ -86,5 +86,53 @@ body {
     background-position: center;
     border: none;
     background-color: transparent;
+    
+}
 
+
+/* hero section */
+
+
+.hero {
+    padding-top: 64px;
+    padding-bottom: 56px;
+}
+
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__content {
+    width: 450px;
+}
+
+.hero__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+
+.hero__desc {
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 48px;
+}
+
+.hero__link {
+    display: flex;
+    width: 204px;
+    height: 64px;
+    border-radius: 64px;
+    justify-content: center;
+    align-items: center;
+    background-color: #DC3845;    
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;    
 }
