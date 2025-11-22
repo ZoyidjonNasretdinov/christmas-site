@@ -136,3 +136,57 @@ body {
     letter-spacing: 0%;
     color: #fff;    
 }
+
+/* giving section */
+
+.giving {
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+
+.giving__title-wrapper {
+    width: 205px;
+    margin: 0 auto;
+}
+
+.giving__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.giving__list {
+    display: flex;
+    gap: 128px;
+    justify-content: center;
+}
+
+.giving__item {
+    width: 142px;
+}
+
+
+.giving__item img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 12px;
+}
+
+.giving__subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.giving__subdesc {
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0%;
+    text-align: center;
+}
